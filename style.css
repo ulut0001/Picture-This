@@ -10,13 +10,13 @@ body {
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
-  background-color: cadetblue;
+  align-items:flex-start;
+  background-color: rgb(215, 86, 86);
 }
 
 .title {
   padding: 50px 25px;
-  text-align: center;
+  text-align:justify;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h4 {
 }
 
 img {
-  display: block;
+  display:inline-block;
 }
 
 @media (min-width: 960px) {
